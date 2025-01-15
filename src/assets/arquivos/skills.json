@@ -1,0 +1,30 @@
+{
+    "javascrip": {
+        "name": "Javascrip",
+        "description": " Linguagem de programação que adiciona interatividade e dinamismo a sites e aplicações web."
+    },
+    "react": {
+        "name": "React",
+        "description": "Biblioteca JavaScript para construir interfaces de usuário, focada em componentes reutilizáveis e performance."
+    },
+    "html":{
+        "name": "HTML",
+        "description": " Linguagem de marcação usada para estruturar o conteúdo de páginas web."
+    },
+    "css": {
+        "name": "CSS",
+        "description": " Estiliza páginas web, definindo cores, fontes, layouts e responsividade."
+    },
+    "git":{
+        "name": "Git",
+        "description": "Sistema de controle de versão para rastrear mudanças no código e colaborar em projetos."
+    },
+    "api":{
+        "name": "API",
+        "description": "Interface que permite a comunicação entre sistemas, geralmente para troca de dados e funcionalidades."
+    },
+    "github": {
+        "name": "GitHub",
+        "description": "Plataforma para hospedar repositórios Git, facilitar colaboração e gerenciar projetos."
+    }
+}
