@@ -124,6 +124,10 @@ const SkillCard = styled.div`
   p {
     margin: 20px 10px;
   }
+
+  @media(max-width: 900px){
+    height: 300px;
+  }
 `;
 
 export { Skills };
