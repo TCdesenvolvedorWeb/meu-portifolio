@@ -1,6 +1,9 @@
-import { Habilidades , Carrosel , SkillCard } from "../../assets/styles/Habilidades";
-import axios from "axios";
-import { useContext, useEffect, useState } from "react";
+import {
+  Habilidades,
+  Carrosel,
+  SkillCard,
+} from "../../assets/styles/Habilidades";
+import { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJs } from "@fortawesome/free-brands-svg-icons/faJs";
 import { faGit } from "@fortawesome/free-brands-svg-icons/faGit";
@@ -10,24 +13,15 @@ import {
   faHtml5,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import { skilsData } from "../../utils";
 import { ThemeContext } from "../../Context/ThemeToggle";
 
 const Skills = () => {
-  const [data, setData] = useState();
-  const { theme } = useContext(ThemeContext)
-
-  const getSkills = async () => {
-    const response = await axios.get(skilsData);
-    setData(await response.data);
-  };
-
-  useEffect(() => {
-    getSkills();
-  }, []);
+  const { theme } = useContext(ThemeContext);
 
   return (
-    <Habilidades style={{backgroundColor: theme.background , color: theme.color}}>
+    <Habilidades
+      style={{ backgroundColor: theme.background, color: theme.color }}
+    >
       <h2>Habilidades</h2>
       <p className="experiencias">
         Possuo experiência no desenvolvimento web utilizando HTML, CSS e
@@ -43,27 +37,45 @@ const Skills = () => {
       <Carrosel>
         <SkillCard>
           <FontAwesomeIcon icon={faJs} className="icon" />
-          <p> {data?.javascrip.description} </p>
+          <p>
+            Linguagem de programação que adiciona interatividade e dinamismo a
+            sites e aplicações web.
+          </p>
         </SkillCard>
         <SkillCard>
           <FontAwesomeIcon icon={faHtml5} className="icon" />
-          <p> {data?.html.description} </p>
+          <p>
+            Linguagem de marcação usada para estruturar o conteúdo de páginas
+            web.
+          </p>
         </SkillCard>
         <SkillCard>
           <FontAwesomeIcon icon={faCss} className="icon" />
-          <p> {data?.css.description} </p>
-        </SkillCard>
-        <SkillCard>
-          <FontAwesomeIcon icon={faReact} className="icon" />
-          <p> {data?.react.description} </p>
-        </SkillCard>
-        <SkillCard>
-          <FontAwesomeIcon icon={faGithub} className="icon" />
-          <p> {data?.github.description} </p>
+          <p>
+            Estiliza páginas web, definindo cores, fontes, layouts e
+            responsividade.
+          </p>
         </SkillCard>
         <SkillCard>
           <FontAwesomeIcon icon={faGit} className="icon" />
-          <p> {data?.git.description} </p>
+          <p>
+            Sistema de controle de versão para rastrear mudanças no código e
+            colaborar em projetos.
+          </p>
+        </SkillCard>
+        <SkillCard>
+          <FontAwesomeIcon icon={faReact} className="icon" />
+          <p>
+            Biblioteca JavaScript para construir interfaces de usuário, focada
+            em componentes reutilizáveis e performance.
+          </p>
+        </SkillCard>
+        <SkillCard>
+          <FontAwesomeIcon icon={faGithub} className="icon" />
+          <p>
+            Plataforma para hospedar repositórios Git, facilitar colaboração e
+            gerenciar projetos.
+          </p>
         </SkillCard>
       </Carrosel>
     </Habilidades>
