@@ -23,7 +23,7 @@ const Menu = () => {
         <Link to={"/Habilidades"}>
           <li>Habilidades</li>
         </Link>
-        <Link to={"/certificado"}>
+        <Link to={"/Certificados"}>
           <li>Certificados</li>
         </Link>
         <li className="cv">
