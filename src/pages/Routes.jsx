@@ -12,12 +12,12 @@ const AppRoutes = () => {
     const Router = SupportsHistory() ? BrowserRouter : HashRouter;
 
     return(
-        <Router>
+        <Router >
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/Projetos" element={<Projetos/>} />
                 <Route exact path="/Habilidades" element={<Habilidades/>} />
-                <Route exact path="/Certificados" element={<Certificado/>}/>
+                <Route exact path="/certificado" element={<Certificado/>}/>
             </Routes>
         </Router>
     )
