@@ -23,6 +23,9 @@ const Menu = () => {
         <Link to={"/Habilidades"}>
           <li>Habilidades</li>
         </Link>
+        <Link to={"/Certificados"}>
+          <li>Certificados</li>
+        </Link>
         <li className="cv">
           <a target="_blank" href={CV}>
             CV
