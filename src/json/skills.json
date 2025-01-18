@@ -6,6 +6,10 @@
             "icon": "<FontAwesomeIcon icon={faJs} className='icon' />"
         },
         {
+            "name": "TypeScipt",
+            "description": "Uma extensão do JavaScript que adiciona tipagem estática, tornando o código mais seguro, legível e fácil de manter, especialmente em projetos grandes."
+        },
+        {
             "name": "React",
             "description": "Biblioteca JavaScript para construir interfaces de usuário, focada em componentes reutilizáveis e performance.",
             "icon": "<FontAwesomeIcon icon={faHtml5} className='icon' />"
