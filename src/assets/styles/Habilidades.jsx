@@ -60,4 +60,11 @@ const SkillCard = styled.div`
   }
 `;
 
-export {Carrosel , Habilidades , SkillCard }
+const TypeScript = styled.h3`
+  font-size: 5rem;
+  color: var(--primary-color);
+  background-color: rgb(224, 224, 240);
+  padding: 10px;
+`
+
+export {Carrosel , Habilidades , SkillCard , TypeScript }

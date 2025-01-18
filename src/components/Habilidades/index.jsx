@@ -2,6 +2,7 @@ import {
   Habilidades,
   Carrosel,
   SkillCard,
+  TypeScript,
 } from "../../assets/styles/Habilidades";
 import { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,6 +41,12 @@ const Skills = () => {
           <p>
             Linguagem de programação que adiciona interatividade e dinamismo a
             sites e aplicações web.
+          </p>
+        </SkillCard>
+        <SkillCard>
+          <TypeScript >TS</TypeScript>
+          <p>
+          Uma extensão do JavaScript que adiciona tipagem estática, tornando o código mais seguro, legível e fácil de manter, especialmente em projetos grandes.
           </p>
         </SkillCard>
         <SkillCard>
