@@ -23,7 +23,7 @@ const Projects = () => {
       <SectionProjects>
         <ProjectsCard>
           <figcaption>
-            <img src={imgECommerce} alt="E-commerce" />
+            <img src={imgECommerce} alt="E-commerce" loading="lazy"/>
             <h3>E-commerce</h3>
             <p className="descrição">
               E-Commmerce | Sneakers, se trata da apresentação do produto de uma
@@ -48,7 +48,7 @@ const Projects = () => {
         </ProjectsCard>
         <ProjectsCard>
           <figcaption>
-            <img src={imgSpace} alt="Space tourism website" />
+            <img src={imgSpace} alt="Space tourism website" loading="lazy"/>
             <h3>Space Tourism website</h3>
             <p className="descrição">
               Space Tourism website, se trata de um site de turismo, onde temos 4 páginas, Home, Destination, crew e technology. Cada uma conta com um sistema simples de seleção de informções, basta clicar no botão. Mas o que eu mais gostei deste projeto não está no que se pode ver no Deploy, mas se em sua estrutura, no lugar de um simplesmente sair fazendo os cards um por um manualmente fiz um array com os cards, onde se o index for igual ao index do array, ele aparece, fazendo com que usase menos linhas de código e mantesse a sua organização tornando-o de fácil de manutenção.
@@ -71,7 +71,7 @@ const Projects = () => {
         </ProjectsCard>
         <ProjectsCard>
           <figcaption>
-            <img  src={imgGithubAPi} alt="GitHub API" />
+            <img  src={imgGithubAPi} alt="GitHub API" loading="lazy"/>
             <h3>GitHub API</h3>
             <p className="descrição">
               GitHub API, nele você poderá acessar 10 dos meus repositórios
