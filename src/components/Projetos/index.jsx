@@ -1,6 +1,6 @@
 import { Projetos , Links , ProjectsCard , SectionProjects } from "../../assets/styles/Projetos";
 import imgECommerce from "../../assets/img/e-commerce.png";
-import imgPokedex from "../../assets/img/pokedex.png";
+import imgSpace from "../../assets/img/space-tourism.png";
 import imgGithubAPi from "../../assets/img/github-api.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../Context/ThemeToggle";
@@ -48,26 +48,22 @@ const Projects = () => {
         </ProjectsCard>
         <ProjectsCard>
           <figcaption>
-            <img src={imgPokedex} alt="" />
-            <h3>Pokedex</h3>
+            <img src={imgSpace} alt="" />
+            <h3>Space Tourism website</h3>
             <p className="descrição">
-              Pokedex, este projeto representou um grande desafio para mim, mas
-              ao mesmo tempo me proporcionou grande aprendizado. Ele se trata de
-              uma SPA, onde são aprensentados varios tipos de pokemons, contando
-              com duas páginas, uma d apresentação de lista simples e uma de
-              detalhes do pokemon.
+              Space Tourism website, se trata de um site de turismo, onde temos 4 páginas, Home, Destination, crew e technology. Cada uma conta com um sistema simples de seleção de informções, basta clicar no botão. Mas o que eu mais gostei deste projeto não está no que se pode ver no Deploy, mas se em sua estrutura, no lugar de um simplesmente sair fazendo os cards um por um manualmente fiz um array com os cards, onde se o index for igual ao index do array, ele aparece, fazendo com que usase menos linhas de código e mantesse a sua organização tornando-o de fácil de manutenção.
             </p>
           </figcaption>
           <Links>
             <a
               target="_blank"
-              href="https://github.com/TCdesenvolvedorWeb/pokedex"
+              href="https://github.com/TCdesenvolvedorWeb/space-tourism-website"
             >
               <p>🔗 Ver no GitHub.</p>
             </a>
             <a
               target="_blank"
-              href="https://pokedex-1vhu7zord-tcdesenvolvedorwebs-projects.vercel.app/"
+              href="https://space-tourism-website-gamma-orpin.vercel.app/"
             >
               <p>🔗 Ver o deploy. </p>
             </a>
