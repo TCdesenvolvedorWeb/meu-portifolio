@@ -1,5 +1,5 @@
 import eu from "../../assets/img/img-portifólio.png";
-import { About , DevName , Info } from "../../assets/styles/Sobre";
+import { About, DevName, Info } from "../../assets/styles/Sobre";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import {
@@ -27,12 +27,23 @@ const Sobre = () => {
           <h2 style={{ color: theme.colorSecundary }}> Tadeu Cardoso</h2>
           <strong>Desenvolvedor Front-end</strong>
           <p style={{ color: theme.colorSecundary }}>
-            Olá! Me chamo Tadeu, estou realizando uma transição de carreira,
-            trabalho como militar da força aérea desde 06/2020, hoje busco
-            trabalhar como desenvolvedor Front-end, tenho mantido uma boa
-            prática realizando projetos tanto do Front-end mentor, do curso que
-            estou realizando quanto projetos pessoais, inclusive, este
-            portifólio é 100% autoral.
+            Olá, me chamo Tadeu, desenvolvedor Front-end em transição de carreira,
+            sou militar da FAB, onde atuo desde 2020. Apaixonado por tecnologia, estou focado em criar interfaces dinâmicas e funcionais que entreguem valor real aos
+            usuários.
+            <br /><br />
+            Tenho experiência no desenvolvimento de SPAs utilizando
+            React e seus frameworks, além de domínio em HTML, CSS, e JavaScript.
+            Também ampliei meus conhecimentos para o backend, explorando
+            Node.js, Express, PostgreSQL, e SQL, o que me dá uma visão completa
+            do desenvolvimento web.
+            <br /><br />
+             Minhas habilidades foram consolidadas por
+            meio de projetos práticos, como desafios do Front-end Mentor,
+            atividades do curso que estou concluindo, e iniciativas autorais,
+            incluindo este portfólio, que foi desenvolvido do zero por mim.
+            Estou motivado a aplicar essas competências em um ambiente
+            colaborativo, aprendendo e contribuindo para a criação de soluções
+            tecnológicas que fazem a diferença.
           </p>
           <ul>
             <li style={{ background: theme.colorSecundary }}>
